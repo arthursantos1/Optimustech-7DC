@@ -1,0 +1,300 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+    --second-color: #101828;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.links a {
+    line-height: 24px;
+    text-decoration: none;
+    margin-right: 2rem;
+    color: var(--text-color);
+}
+
+button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--text-color);
+}
+
+.botao-cadastrar {
+    background: var(--main-color);
+    color: #ffffff;
+}
+
+/* Cabeçalho primeira seção */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem 0;
+    gap: 1rem;
+}
+
+.about > span {
+    color: var(--main-color);
+    line-height: 24px;
+
+}
+
+.about > h1 {
+    font-size: 48px;
+    line-height: 60px;
+    color: var(--second-color);
+}
+
+.about > p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--text-color);
+    max-width: 50%;
+}
+
+/* Informações da Empresa */
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 180px;
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.info-itens{
+    margin: 10px;
+    width: 18%;
+}
+
+.info-itens > h1{
+    font-size: 60px;
+    line-height: 72px;
+    color: var(--main-color);
+}
+
+.info-itens > h2{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 10px 0 10px 0;
+}
+
+.info-itens > p{
+    color: var(--text-color);
+    font-weight: 300;
+    line-height: 24px;
+}
+
+/* seção de vagas */
+.secao-vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
+    padding: 35px;
+}
+
+.open-vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+    gap: 16px;
+}
+
+.open-vagas > span{
+    color: var(--main-color);
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+}
+
+.open-vagas > h1{
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--second-color);
+}
+
+.open-vagas > p{
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+
+.img_job{
+    max-width: 980px;
+    width: 100%;
+}
+
+.job_description{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.vaga{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 10px;
+}
+
+.titulo-vaga{
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--second-color);
+}
+
+.job_info {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 80px;
+    border: 1px solid #bcbcbd;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin: 10px 0 10px 30px;
+}
+
+.job_info > p{
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--second-color);
+}
+
+.timeandsalary{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.timeandsalary > p{
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10px;
+    line-height: 24px;
+    color: var(--text-color);
+}
+
+/* Parte de Feedback dos colaboradores da empresa */
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
+    padding: 110px 0px;
+}
+
+.feedback_colaborador{
+    text-align: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 00.5rem;
+}
+
+.feedback_colaborador > span{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.feedback_colaborador > h1{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+    color: var(--second-color);
+}
+
+.feedback_colaborador > img{
+    padding: 2rem;
+}
+
+#nome-colaboradora{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--second-color);
+}
+
+.feedback_colaborador > p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 45px;
+    color: var(--text-color);
+}
+
+/* Parte para o usuário realizar o cadastro para empresa */
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
+}
+
+.formulario > h1{
+    font-size: 36px;
+    line-height: 44px;
+    padding: 25px 0px;
+}
+
+.formulario > p{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 20px 0px;
+    color: var(--text-color);
+}
+
+.campo-email{
+    padding: 12px 14px 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    margin: 15px;
+}
+
+#copyright{
+    font-size: 16px;
+    line-height: 24px;
+    color: #98A2B3;
+}
